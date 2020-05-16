@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="295.0" layoutY="334.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="438.0" layoutY="179.0" stroke="BLACK" strokeType="INSIDE" width="46.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="153.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8f8f8" height="51.0" layoutX="201.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+      <TextField fx:id="num1Field" layoutX="95.0" layoutY="206.0" />
+      <TextField fx:id="num2Field" layoutX="375.0" layoutY="206.0" />
+      <TextField fx:id="resultField" layoutX="240.0" layoutY="360.0" />
+      <Label layoutX="160.0" layoutY="179.0" prefHeight="26.0" prefWidth="53.0" text="Num1" />
+      <Label layoutX="303.0" layoutY="339.0" prefHeight="16.0" prefWidth="46.0" text="Result:" />
+      <Label layoutX="442.0" layoutY="184.0" text="Num2" />
+      <Button layoutX="283.0" layoutY="252.0" mnemonicParsing="false" onAction="#addClick" text="+" />
+      <Button layoutX="286.0" layoutY="290.0" mnemonicParsing="false" onAction="#subtractClick" text="-" />
+      <Button layoutX="325.0" layoutY="252.0" mnemonicParsing="false" onAction="#multiplicationClick" text="*" />
+      <Button layoutX="326.0" layoutY="290.0" mnemonicParsing="false" onAction="#divisionClick" text="/" />
+      <Label layoutX="209.0" layoutY="95.0" prefHeight="40.0" prefWidth="266.0" text="Lu5Ca1cu1at0r" wrapText="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="450.0" prefHeight="16.0" prefWidth="389.0" text="Feito por Lucas Henrique Braga Martins" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
